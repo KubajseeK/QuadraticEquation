@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ifPractice practice = new ifPractice();
+        FreeClass practice = new FreeClass();
 
         practice.quadraticEquation();
     }

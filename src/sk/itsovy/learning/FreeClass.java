@@ -2,7 +2,7 @@ package sk.itsovy.learning;
 
 import java.util.Scanner;
 
-public class ifPractice {
+public class FreeClass {
 
     public void getMonth() {
 
