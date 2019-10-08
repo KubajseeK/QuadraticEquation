@@ -7,6 +7,7 @@ public class ifPractice {
     public void getMonth() {
 
         Scanner practicingIf = new Scanner(System.in);
+        System.out.println("Hello, I am program for solving Quadratic Equations");
 
         System.out.print("Enter Number 1-12: ");
         int num = practicingIf.nextInt();
@@ -133,6 +134,7 @@ public class ifPractice {
 
     public void quadraticEquation() {
         Scanner quadratic = new Scanner(System.in);
+        System.out.println("Hello, I am program for solving Quadratic Equations!");
 
         System.out.print("Input a: ");
         double a = quadratic.nextDouble();
@@ -147,9 +149,11 @@ public class ifPractice {
             double r1 = (-b + Math.pow(discriminant, 0.5)) / (2.0 * a);
             double r2 = (-b - Math.pow(discriminant, 0.5)) / (2.0 * a);
             System.out.println("The roots are " + r1 + " and " + r2);
+
         } else if (discriminant == 0.0) {
             double r1 = -b / (2.0 * a);
             System.out.println("The root is " + r1);
+
         } else {
             System.out.println("The equation has no roots.");
         }
